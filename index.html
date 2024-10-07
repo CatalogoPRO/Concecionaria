@@ -1,0 +1,1792 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+  <!-- Incluir Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <!-- Incluir Fancybox CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+
+
+
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/mediaqueries.css">
+  <title>Concesionaria</title>
+</head>
+
+<body>
+
+
+  <header class="header">
+
+    <nav class="nav container" id="nav">
+
+      <img class="nav__logo" src="assets/vectores/logo.svg" alt="">
+
+      <div class="nav__icons">
+
+        <a href="#nav">
+          <img class="nav__open" src="assets/vectores/hamburguesa.svg" alt="">
+        </a>
+
+        <a href="#">
+          <img class="nav__close" src="assets/vectores/cruz.svg" alt="">
+        </a>
+
+      </div>
+
+      <ul class="nav__items">
+
+        <li class="nav__links">
+          <a class="nav__link" href="#servicios">Servicios</a>
+        </li>
+
+        <li class="nav__links">
+          <a class="nav__link" href="#nosotros">Nosotros</a>
+        </li>
+
+        <li class="nav__links">
+          <a class="nav__link" href="#vehiculos">Vehiculos</a>
+        </li>
+
+        <li class="nav__links">
+          <a class="nav__link" href="#testimonios">Testimonios</a>
+        </li>
+
+        <li class="nav__links">
+          <a class="nav__link" href="#ubicacion">Ubicación</a>
+        </li>
+
+      </ul>
+
+    </nav>
+    <div>
+      <h1 class="header__eslogan">
+        Cada auto cuenta una historia, haz que la tuya comience aquí
+      </h1>
+    </div>
+
+    <div>
+      <img class="header__wave" src="assets/vectores/wave.svg" alt="">
+    </div>
+
+  </header>
+
+  <main>
+
+    <section class="icons" id="servicios">
+
+
+      <div class="icons__container">
+
+        <div class="icon__item">
+          <img class="icon__img" src="assets/imagenes/uno.webp" alt="">
+          <p class="icon__text">Servicio de<br>Ventas</p>
+        </div>
+
+        <div class="icon__item">
+          <img class="icon__img" src="assets/imagenes/dos.webp" alt="">
+          <p class="icon__text">Financiación de<br>Vehículos</p>
+        </div>
+
+        <div class="icon__item">
+          <img class="icon__img" src="assets/imagenes/tres.webp" alt="">
+          <p class="icon__text">Atención<br>personalizada</p>
+        </div>
+
+        <div class="icon__item">
+          <img class="icon__img" src="assets/imagenes/cuatro.webp" alt="">
+          <p class="icon__text">Cotizamos tu<br>Vehiculo</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="nosotros" id="nosotros">
+
+      <h2 class="nosotros__title">Nosotros</h2>
+
+      <h3 class="nosotros__subtitle">
+        En Carvolution nos apasiona ofrecerte una experiencia excepcional al comprar tu próximo vehículo. Nuestro
+        compromiso se basa en la calidad y transparencia. Somos tu mejor opción para encontrar el auto perfecto que se
+        adapte a tus necesidades y estilo de vida.
+      </h3>
+
+    </section>
+
+    <section class="categorias">
+      <h3 class="categorias__title">Elige tu Categoría</h3>
+      <div id="categories">
+
+        <button class="category-btn" data-category="all">
+          <img class="categoria__icon" src="assets/vectores/iconTODO.svg" alt=""> Ver Todo <br>
+        </button>
+
+        <button class="category-btn" data-category="autos">
+          <img class="categoria__icon" src="assets/vectores/iconSEDAN.svg" alt=""> Sedan <br>
+        </button>
+
+        <button class="category-btn" data-category="hatchback">
+          <img class="categoria__icon" src="assets/vectores/iconHatchback.svg" alt="">Hatchback</button>
+
+        <button class="category-btn" data-category="pickups">
+          <img class="categoria__icon" src="assets/vectores/iconPICKUP.svg" alt="">Pickups</button>
+
+        <button class="category-btn" data-category="suv">
+          <img class="categoria__icon" src="assets/vectores/iconSUV.svg" alt=""> Suv</button>
+
+      </div>
+
+      <div id="products">
+
+      </div>
+
+    </section>
+
+    <div class="referencia" id="referencia"></div>
+
+
+    <div class="contenedor" id="vehiculos">
+
+
+      <div class="product autos">
+        <div class="producto" id="producto1">
+          <div class="fotos">
+            <h2 class="fotos__title">Toyota Camry SL</h2>
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/autos/2023 Toyota Camry SL Auto/se1.webp" data-fancybox="gallery1">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/autos/2023 Toyota Camry SL Auto/se1.webp" />
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/autos/2023 Toyota Camry SL Auto/se2.webp" data-fancybox="gallery1">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/autos/2023 Toyota Camry SL Auto/se2.webp" />
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/autos/2023 Toyota Camry SL Auto/se3.webp" data-fancybox="gallery1">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/autos/2023 Toyota Camry SL Auto/se3.webp" />
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/autos/2023 Toyota Camry SL Auto/se4.webp" data-fancybox="gallery1">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/autos/2023 Toyota Camry SL Auto/se4.webp" />
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/autos/2023 Toyota Camry SL Auto/se5.webp" data-fancybox="gallery1">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/autos/2023 Toyota Camry SL Auto/se5.webp" />
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+            <div thumbsSlider="" class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/autos/2023 Toyota Camry SL Auto/se1.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/autos/2023 Toyota Camry SL Auto/se2.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/autos/2023 Toyota Camry SL Auto/se3.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/autos/2023 Toyota Camry SL Auto/se4.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/autos/2023 Toyota Camry SL Auto/se5.webp" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="texto">
+
+            <h2 class="texto__title">Toyota Camry SL</h2>
+
+            <div class="caracteristicas">
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/modelo.svg" alt="">
+                <h5 class="carac__text">Modelo: 2015</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/motor.svg" alt="">
+                <h5 class="carac__text">Motor: 1.5</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/color.svg" alt="">
+                <h5 class="carac__text">Color: gris</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/gasolina.svg" alt="">
+                <h5 class="carac__text">Combustible: Nafta</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/transmision.svg" alt="">
+                <h5 class="carac__text">Transmisión: Manual</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/aireacondicionado.svg" alt="">
+                <h5 class="carac__text">Aire Acondicionado: Si</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/calefaccion.svg" alt="">
+                <h5 class="carac__text">Calefacción: Si</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/kilometros.svg" alt="">
+                <h5 class="carac__text">Km: 178.000</h5>
+              </div>
+
+            </div>
+
+            </p>
+            <a class="texto__boton" href="https://wa.link/hgyiwa">
+              <img class="boton__img" src="assets/vectores/whatsapp_redondo.svg" alt="">
+              Consultar
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="product autos">
+
+        <div class="producto" id="producto4">
+
+          <div class="fotos">
+            <h2 class="fotos__title">Mercedes Benz C-300</h2>
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/autos/mercedes C-300/se1.webp" data-fancybox="gallery2">
+                    <img class="foto__producto" src="assets/imagenes/vehiculos/autos/mercedes C-300/se1.webp" />
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/autos/mercedes C-300/se2.webp" data-fancybox="gallery2">
+                    <img class="foto__producto" src="assets/imagenes/vehiculos/autos/mercedes C-300/se2.webp" />
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/autos/mercedes C-300/se3.webp" data-fancybox="gallery2">
+                    <img class="foto__producto" src="assets/imagenes/vehiculos/autos/mercedes C-300/se3.webp" />
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/autos/mercedes C-300/se4.webp" data-fancybox="gallery2">
+                    <img class="foto__producto" src="assets/imagenes/vehiculos/autos/mercedes C-300/se4.webp" />
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/autos/mercedes C-300/se5.webp" data-fancybox="gallery2">
+                    <img class="foto__producto" src="assets/imagenes/vehiculos/autos/mercedes C-300/se5.webp" />
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/autos/mercedes C-300/se6.webp" data-fancybox="gallery2">
+                    <img class="foto__producto" src="assets/imagenes/vehiculos/autos/mercedes C-300/se6.webp" />
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+            <div thumbsSlider="" class="swiper mySwiper">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/autos/mercedes C-300/se1.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/autos/mercedes C-300/se2.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/autos/mercedes C-300/se3.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/autos/mercedes C-300/se4.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/autos/mercedes C-300/se5.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/autos/mercedes C-300/se5.webp" />
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="texto">
+
+            <h2 class="texto__title">Toyota Camry SL</h2>
+
+            <div class="caracteristicas">
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/modelo.svg" alt="">
+                <h5 class="carac__text">Modelo: 2015</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/motor.svg" alt="">
+                <h5 class="carac__text">Motor: 1.5</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/color.svg" alt="">
+                <h5 class="carac__text">Color: gris</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/gasolina.svg" alt="">
+                <h5 class="carac__text">Combustible: Nafta</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/transmision.svg" alt="">
+                <h5 class="carac__text">Transmisión: Manual</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/aireacondicionado.svg" alt="">
+                <h5 class="carac__text">Aire Acondicionado: Si</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/calefaccion.svg" alt="">
+                <h5 class="carac__text">Calefacción: Si</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/kilometros.svg" alt="">
+                <h5 class="carac__text">Km: 178.000</h5>
+              </div>
+
+            </div>
+
+            </p>
+            <a class="texto__boton" href="https://wa.link/hgyiwa">
+              <img class="boton__img" src="assets/vectores/whatsapp_redondo.svg" alt="">
+              Consultar
+            </a>
+          </div>
+        </div>
+
+
+
+      </div>
+
+
+
+
+
+
+      <div class="product hatchback">
+
+        <div class="producto" id="producto5">
+
+          <div class="fotos">
+            <h2 class="fotos__title">Mazda 3 Neo Sport</h2>
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+
+
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/hatchback/2018 Mazda 3 Neo Sport BN Series Auto/au1.webp"
+                    data-fancybox="gallery3">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/hatchback/2018 Mazda 3 Neo Sport BN Series Auto/au1.webp" />
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/hatchback/2018 Mazda 3 Neo Sport BN Series Auto/au2.webp"
+                    data-fancybox="gallery3">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/hatchback/2018 Mazda 3 Neo Sport BN Series Auto/au2.webp" />
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/hatchback/2018 Mazda 3 Neo Sport BN Series Auto/au3.webp"
+                    data-fancybox="gallery3">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/hatchback/2018 Mazda 3 Neo Sport BN Series Auto/au3.webp" />
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/hatchback/2018 Mazda 3 Neo Sport BN Series Auto/au4.webp"
+                    data-fancybox="gallery3">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/hatchback/2018 Mazda 3 Neo Sport BN Series Auto/au4.webp" />
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/hatchback/2018 Mazda 3 Neo Sport BN Series Auto/au5.webp"
+                    data-fancybox="gallery3">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/hatchback/2018 Mazda 3 Neo Sport BN Series Auto/au5.webp" />
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/hatchback/2018 Mazda 3 Neo Sport BN Series Auto/au6.webp"
+                    data-fancybox="gallery3">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/hatchback/2018 Mazda 3 Neo Sport BN Series Auto/au6.webp" />
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/hatchback/2018 Mazda 3 Neo Sport BN Series Auto/au7.webp"
+                    data-fancybox="gallery3">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/hatchback/2018 Mazda 3 Neo Sport BN Series Auto/au7.webp" />
+                  </a>
+                </div>
+              </div>
+
+
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+            <div thumbsSlider="" class="swiper mySwiper">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/hatchback/2018 Mazda 3 Neo Sport BN Series Auto/au1.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/hatchback/2018 Mazda 3 Neo Sport BN Series Auto/au2.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/hatchback/2018 Mazda 3 Neo Sport BN Series Auto/au3.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/hatchback/2018 Mazda 3 Neo Sport BN Series Auto/au4.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/hatchback/2018 Mazda 3 Neo Sport BN Series Auto/au5.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/hatchback/2018 Mazda 3 Neo Sport BN Series Auto/au6.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/hatchback/2018 Mazda 3 Neo Sport BN Series Auto/au7.webp" />
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="texto">
+
+            <h2 class="texto__title">Toyota Camry SL</h2>
+
+            <div class="caracteristicas">
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/modelo.svg" alt="">
+                <h5 class="carac__text">Modelo: 2015</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/motor.svg" alt="">
+                <h5 class="carac__text">Motor: 1.5</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/color.svg" alt="">
+                <h5 class="carac__text">Color: gris</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/gasolina.svg" alt="">
+                <h5 class="carac__text">Combustible: Nafta</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/transmision.svg" alt="">
+                <h5 class="carac__text">Transmisión: Manual</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/aireacondicionado.svg" alt="">
+                <h5 class="carac__text">Aire Acondicionado: Si</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/calefaccion.svg" alt="">
+                <h5 class="carac__text">Calefacción: Si</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/kilometros.svg" alt="">
+                <h5 class="carac__text">Km: 178.000</h5>
+              </div>
+
+            </div>
+
+            </p>
+            <a class="texto__boton" href="https://wa.link/hgyiwa">
+              <img class="boton__img" src="assets/vectores/whatsapp_redondo.svg" alt="">
+              Consultar
+            </a>
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <div class="product hatchback">
+
+        <div class="producto" id="producto6">
+
+          <div class="fotos">
+            <h2 class="fotos__title">Subaru Impreza</h2>
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/hatchback/2019 Subaru Impreza 2.0i G5 Auto AWD MY19/au1.webp"
+                    data-fancybox="gallery4">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/hatchback/2019 Subaru Impreza 2.0i G5 Auto AWD MY19/au1.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/hatchback/2019 Subaru Impreza 2.0i G5 Auto AWD MY19/au2.webp"
+                    data-fancybox="gallery4">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/hatchback/2019 Subaru Impreza 2.0i G5 Auto AWD MY19/au2.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/hatchback/2019 Subaru Impreza 2.0i G5 Auto AWD MY19/au3.webp"
+                    data-fancybox="gallery4">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/hatchback/2019 Subaru Impreza 2.0i G5 Auto AWD MY19/au3.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/hatchback/2019 Subaru Impreza 2.0i G5 Auto AWD MY19/au4.webp"
+                    data-fancybox="gallery4">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/hatchback/2019 Subaru Impreza 2.0i G5 Auto AWD MY19/au4.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/hatchback/2019 Subaru Impreza 2.0i G5 Auto AWD MY19/au5.webp"
+                    data-fancybox="gallery4">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/hatchback/2019 Subaru Impreza 2.0i G5 Auto AWD MY19/au5.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/hatchback/2019 Subaru Impreza 2.0i G5 Auto AWD MY19/au6.webp"
+                    data-fancybox="gallery4">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/hatchback/2019 Subaru Impreza 2.0i G5 Auto AWD MY19/au6.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/hatchback/2019 Subaru Impreza 2.0i G5 Auto AWD MY19/au7.webp"
+                    data-fancybox="gallery4">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/hatchback/2019 Subaru Impreza 2.0i G5 Auto AWD MY19/au7.webp" />
+                  </a>
+                </div>
+
+
+
+
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+            <div thumbsSlider="" class="swiper mySwiper">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/hatchback/2019 Subaru Impreza 2.0i G5 Auto AWD MY19/au1.webp"
+                    data-fancybox="gallery4">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/hatchback/2019 Subaru Impreza 2.0i G5 Auto AWD MY19/au1.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/hatchback/2019 Subaru Impreza 2.0i G5 Auto AWD MY19/au1.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/hatchback/2019 Subaru Impreza 2.0i G5 Auto AWD MY19/au2.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/hatchback/2019 Subaru Impreza 2.0i G5 Auto AWD MY19/au3.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/hatchback/2019 Subaru Impreza 2.0i G5 Auto AWD MY19/au4.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/hatchback/2019 Subaru Impreza 2.0i G5 Auto AWD MY19/au5.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/hatchback/2019 Subaru Impreza 2.0i G5 Auto AWD MY19/au6.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/hatchback/2019 Subaru Impreza 2.0i G5 Auto AWD MY19/au7.webp" />
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="texto">
+
+            <h2 class="texto__title">Toyota Camry SL</h2>
+
+            <div class="caracteristicas">
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/modelo.svg" alt="">
+                <h5 class="carac__text">Modelo: 2015</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/motor.svg" alt="">
+                <h5 class="carac__text">Motor: 1.5</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/color.svg" alt="">
+                <h5 class="carac__text">Color: gris</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/gasolina.svg" alt="">
+                <h5 class="carac__text">Combustible: Nafta</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/transmision.svg" alt="">
+                <h5 class="carac__text">Transmisión: Manual</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/aireacondicionado.svg" alt="">
+                <h5 class="carac__text">Aire Acondicionado: Si</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/calefaccion.svg" alt="">
+                <h5 class="carac__text">Calefacción: Si</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/kilometros.svg" alt="">
+                <h5 class="carac__text">Km: 178.000</h5>
+              </div>
+
+            </div>
+
+            </p>
+            <a class="texto__boton" href="https://wa.link/hgyiwa">
+              <img class="boton__img" src="assets/vectores/whatsapp_redondo.svg" alt="">
+              Consultar
+            </a>
+          </div>
+        </div>
+
+
+
+      </div>
+
+
+
+
+
+
+
+      <div class="product pickups">
+        <div class="producto" id="producto3">
+
+          <div class="fotos">
+            <h2 class="fotos__title">Chevrolet Silverado 5.4 2500 Cab Reg Ls 4x2 At</h2>
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/pickup/silverado/foto1.webp" data-fancybox="gallery5">
+                    <img class="foto__producto" src="assets/imagenes/vehiculos/pickup/silverado/foto1.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/pickup/silverado/foto2.webp" data-fancybox="gallery5">
+                    <img class="foto__producto" src="assets/imagenes/vehiculos/pickup/silverado/foto2.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/pickup/silverado/foto3.webp" data-fancybox="gallery5">
+                    <img class="foto__producto" src="assets/imagenes/vehiculos/pickup/silverado/foto3.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/pickup/silverado/foto4.webp" data-fancybox="gallery5">
+                    <img class="foto__producto" src="assets/imagenes/vehiculos/pickup/silverado/foto4.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/pickup/silverado/foto5.webp" data-fancybox="gallery5">
+                    <img class="foto__producto" src="assets/imagenes/vehiculos/pickup/silverado/foto5.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/pickup/silverado/foto6.webp" data-fancybox="gallery5">
+                    <img class="foto__producto" src="assets/imagenes/vehiculos/pickup/silverado/foto6.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/pickup/silverado/foto7.webp" data-fancybox="gallery5">
+                    <img class="foto__producto" src="assets/imagenes/vehiculos/pickup/silverado/foto7.webp" />
+                  </a>
+                </div>
+
+
+
+
+
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+            <div thumbsSlider="" class="swiper mySwiper">
+              <div class="swiper-wrapper">
+
+
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/pickup/silverado/foto1.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/pickup/silverado/foto2.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/pickup/silverado/foto3.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/pickup/silverado/foto4.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/pickup/silverado/foto5.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/pickup/silverado/foto6.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/pickup/silverado/foto7.webp" />
+                </div>
+
+
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="texto">
+
+            <h2 class="texto__title">Toyota Camry SL</h2>
+
+            <div class="caracteristicas">
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/modelo.svg" alt="">
+                <h5 class="carac__text">Modelo: 2015</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/motor.svg" alt="">
+                <h5 class="carac__text">Motor: 1.5</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/color.svg" alt="">
+                <h5 class="carac__text">Color: gris</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/gasolina.svg" alt="">
+                <h5 class="carac__text">Combustible: Nafta</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/transmision.svg" alt="">
+                <h5 class="carac__text">Transmisión: Manual</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/aireacondicionado.svg" alt="">
+                <h5 class="carac__text">Aire Acondicionado: Si</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/calefaccion.svg" alt="">
+                <h5 class="carac__text">Calefacción: Si</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/kilometros.svg" alt="">
+                <h5 class="carac__text">Km: 178.000</h5>
+              </div>
+
+            </div>
+
+            </p>
+            <a class="texto__boton" href="https://wa.link/hgyiwa">
+              <img class="boton__img" src="assets/vectores/whatsapp_redondo.svg" alt="">
+              Consultar
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="product pickups">
+        <div class="producto" id="producto7">
+
+          <div class="fotos">
+            <h2 class="fotos__title">Ford Ranger Raptor PX MkIII</h2>
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/pickup/2019 Ford Ranger Raptor PX MkIII Auto 4x4 MY19 Double Cab MY19/ca1.webp"
+                    data-fancybox="gallery6">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/pickup/2019 Ford Ranger Raptor PX MkIII Auto 4x4 MY19 Double Cab MY19/ca1.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/pickup/2019 Ford Ranger Raptor PX MkIII Auto 4x4 MY19 Double Cab MY19/ca2.webp"
+                    data-fancybox="gallery6">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/pickup/2019 Ford Ranger Raptor PX MkIII Auto 4x4 MY19 Double Cab MY19/ca2.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/pickup/2019 Ford Ranger Raptor PX MkIII Auto 4x4 MY19 Double Cab MY19/ca3.webp"
+                    data-fancybox="gallery6">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/pickup/2019 Ford Ranger Raptor PX MkIII Auto 4x4 MY19 Double Cab MY19/ca3.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/pickup/2019 Ford Ranger Raptor PX MkIII Auto 4x4 MY19 Double Cab MY19/ca4.webp"
+                    data-fancybox="gallery6">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/pickup/2019 Ford Ranger Raptor PX MkIII Auto 4x4 MY19 Double Cab MY19/ca4.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/pickup/2019 Ford Ranger Raptor PX MkIII Auto 4x4 MY19 Double Cab MY19/ca5.webp"
+                    data-fancybox="gallery6">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/pickup/2019 Ford Ranger Raptor PX MkIII Auto 4x4 MY19 Double Cab MY19/ca5.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/pickup/2019 Ford Ranger Raptor PX MkIII Auto 4x4 MY19 Double Cab MY19/ca6.webp"
+                    data-fancybox="gallery6">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/pickup/2019 Ford Ranger Raptor PX MkIII Auto 4x4 MY19 Double Cab MY19/ca6.webp" />
+                  </a>
+                </div>
+
+
+
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+            <div thumbsSlider="" class="swiper mySwiper">
+              <div class="swiper-wrapper">
+
+
+                <div class="swiper-slide">
+                  <img
+                    src="assets/imagenes/vehiculos/pickup/2019 Ford Ranger Raptor PX MkIII Auto 4x4 MY19 Double Cab MY19/ca1.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="assets/imagenes/vehiculos/pickup/2019 Ford Ranger Raptor PX MkIII Auto 4x4 MY19 Double Cab MY19/ca2.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="assets/imagenes/vehiculos/pickup/2019 Ford Ranger Raptor PX MkIII Auto 4x4 MY19 Double Cab MY19/ca3.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="assets/imagenes/vehiculos/pickup/2019 Ford Ranger Raptor PX MkIII Auto 4x4 MY19 Double Cab MY19/ca4.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="assets/imagenes/vehiculos/pickup/2019 Ford Ranger Raptor PX MkIII Auto 4x4 MY19 Double Cab MY19/ca5.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="assets/imagenes/vehiculos/pickup/2019 Ford Ranger Raptor PX MkIII Auto 4x4 MY19 Double Cab MY19/ca6.webp" />
+                </div>
+
+
+
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="texto">
+
+            <h2 class="texto__title">Toyota Camry SL</h2>
+
+            <div class="caracteristicas">
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/modelo.svg" alt="">
+                <h5 class="carac__text">Modelo: 2015</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/motor.svg" alt="">
+                <h5 class="carac__text">Motor: 1.5</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/color.svg" alt="">
+                <h5 class="carac__text">Color: gris</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/gasolina.svg" alt="">
+                <h5 class="carac__text">Combustible: Nafta</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/transmision.svg" alt="">
+                <h5 class="carac__text">Transmisión: Manual</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/aireacondicionado.svg" alt="">
+                <h5 class="carac__text">Aire Acondicionado: Si</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/calefaccion.svg" alt="">
+                <h5 class="carac__text">Calefacción: Si</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/kilometros.svg" alt="">
+                <h5 class="carac__text">Km: 178.000</h5>
+              </div>
+
+            </div>
+
+            </p>
+            <a class="texto__boton" href="https://wa.link/hgyiwa">
+              <img class="boton__img" src="assets/vectores/whatsapp_redondo.svg" alt="">
+              Consultar
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="product pickups">
+        <div class="producto" id="producto8">
+
+          <div class="fotos">
+            <h2 class="fotos__title">Maxus T60 LDV PRO</h2>
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/pickup/2020 LDV T60 PRO Auto 4x4 Dual Cab/ca1.webp"
+                    data-fancybox="gallery7">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/pickup/2020 LDV T60 PRO Auto 4x4 Dual Cab/ca1.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/pickup/2020 LDV T60 PRO Auto 4x4 Dual Cab/ca2.webp"
+                    data-fancybox="gallery7">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/pickup/2020 LDV T60 PRO Auto 4x4 Dual Cab/ca2.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/pickup/2020 LDV T60 PRO Auto 4x4 Dual Cab/ca3.webp"
+                    data-fancybox="gallery7">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/pickup/2020 LDV T60 PRO Auto 4x4 Dual Cab/ca3.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/pickup/2020 LDV T60 PRO Auto 4x4 Dual Cab/ca4.webp"
+                    data-fancybox="gallery7">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/pickup/2020 LDV T60 PRO Auto 4x4 Dual Cab/ca4.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/pickup/2020 LDV T60 PRO Auto 4x4 Dual Cab/ca5.webp"
+                    data-fancybox="gallery7">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/pickup/2020 LDV T60 PRO Auto 4x4 Dual Cab/ca5.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/pickup/2020 LDV T60 PRO Auto 4x4 Dual Cab/ca6.webp"
+                    data-fancybox="gallery7">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/pickup/2020 LDV T60 PRO Auto 4x4 Dual Cab/ca6.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/pickup/2020 LDV T60 PRO Auto 4x4 Dual Cab/ca7.webp"
+                    data-fancybox="gallery7">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/pickup/2020 LDV T60 PRO Auto 4x4 Dual Cab/ca7.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/pickup/2020 LDV T60 PRO Auto 4x4 Dual Cab/ca8.webp"
+                    data-fancybox="gallery7">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/pickup/2020 LDV T60 PRO Auto 4x4 Dual Cab/ca8.webp" />
+                  </a>
+                </div>
+
+
+
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+            <div thumbsSlider="" class="swiper mySwiper">
+              <div class="swiper-wrapper">
+
+
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/pickup/2020 LDV T60 PRO Auto 4x4 Dual Cab/ca1.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/pickup/2020 LDV T60 PRO Auto 4x4 Dual Cab/ca2.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/pickup/2020 LDV T60 PRO Auto 4x4 Dual Cab/ca3.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/pickup/2020 LDV T60 PRO Auto 4x4 Dual Cab/ca4.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/pickup/2020 LDV T60 PRO Auto 4x4 Dual Cab/ca5.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/pickup/2020 LDV T60 PRO Auto 4x4 Dual Cab/ca6.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/pickup/2020 LDV T60 PRO Auto 4x4 Dual Cab/ca7.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/pickup/2020 LDV T60 PRO Auto 4x4 Dual Cab/ca8.webp" />
+                </div>
+
+
+
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="texto">
+
+            <h2 class="texto__title">Toyota Camry SL</h2>
+
+            <div class="caracteristicas">
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/modelo.svg" alt="">
+                <h5 class="carac__text">Modelo: 2015</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/motor.svg" alt="">
+                <h5 class="carac__text">Motor: 1.5</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/color.svg" alt="">
+                <h5 class="carac__text">Color: gris</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/gasolina.svg" alt="">
+                <h5 class="carac__text">Combustible: Nafta</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/transmision.svg" alt="">
+                <h5 class="carac__text">Transmisión: Manual</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/aireacondicionado.svg" alt="">
+                <h5 class="carac__text">Aire Acondicionado: Si</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/calefaccion.svg" alt="">
+                <h5 class="carac__text">Calefacción: Si</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/kilometros.svg" alt="">
+                <h5 class="carac__text">Km: 178.000</h5>
+              </div>
+
+            </div>
+
+            </p>
+            <a class="texto__boton" href="https://wa.link/hgyiwa">
+              <img class="boton__img" src="assets/vectores/whatsapp_redondo.svg" alt="">
+              Consultar
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="product pickups">
+        <div class="producto" id="producto9">
+
+          <div class="fotos">
+            <h2 class="fotos__title"> Ford F-150</h2>
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/pickup/f150/ca1.webp" data-fancybox="gallery8">
+                    <img class="foto__producto" src="assets/imagenes/vehiculos/pickup/f150/ca1.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/pickup/f150/ca2.webp" data-fancybox="gallery8">
+                    <img class="foto__producto" src="assets/imagenes/vehiculos/pickup/f150/ca2.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/pickup/f150/ca3.webp" data-fancybox="gallery8">
+                    <img class="foto__producto" src="assets/imagenes/vehiculos/pickup/f150/ca3.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/pickup/f150/ca4.webp" data-fancybox="gallery8">
+                    <img class="foto__producto" src="assets/imagenes/vehiculos/pickup/f150/ca4.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/pickup/f150/ca5.webp" data-fancybox="gallery8">
+                    <img class="foto__producto" src="assets/imagenes/vehiculos/pickup/f150/ca5.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/pickup/f150/ca6.webp" data-fancybox="gallery8">
+                    <img class="foto__producto" src="assets/imagenes/vehiculos/pickup/f150/ca6.webp" />
+                  </a>
+                </div>
+
+
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+            <div thumbsSlider="" class="swiper mySwiper">
+              <div class="swiper-wrapper">
+
+
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/pickup/f150/ca1.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/pickup/f150/ca2.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/pickup/f150/ca3.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/pickup/f150/ca4.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/pickup/f150/ca5.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/pickup/f150/ca6.webp" />
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="texto">
+
+            <h2 class="texto__title">Toyota Camry SL</h2>
+
+            <div class="caracteristicas">
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/modelo.svg" alt="">
+                <h5 class="carac__text">Modelo: 2015</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/motor.svg" alt="">
+                <h5 class="carac__text">Motor: 1.5</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/color.svg" alt="">
+                <h5 class="carac__text">Color: gris</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/gasolina.svg" alt="">
+                <h5 class="carac__text">Combustible: Nafta</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/transmision.svg" alt="">
+                <h5 class="carac__text">Transmisión: Manual</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/aireacondicionado.svg" alt="">
+                <h5 class="carac__text">Aire Acondicionado: Si</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/calefaccion.svg" alt="">
+                <h5 class="carac__text">Calefacción: Si</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/kilometros.svg" alt="">
+                <h5 class="carac__text">Km: 178.000</h5>
+              </div>
+
+            </div>
+
+            </p>
+            <a class="texto__boton" href="https://wa.link/hgyiwa">
+              <img class="boton__img" src="assets/vectores/whatsapp_redondo.svg" alt="">
+              Consultar
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      <div class="product suv">
+        <div class="producto" id="producto2">
+
+          <div class="fotos">
+            <h2 class="fotos__title">Toyota RAV4 GXL </h2>
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/suv/2021 Toyota RAV4 GXL Auto eFour/su1.webp"
+                    data-fancybox="gallery9">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/suv/2021 Toyota RAV4 GXL Auto eFour/su1.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/suv/2021 Toyota RAV4 GXL Auto eFour/su2.webp"
+                    data-fancybox="gallery9">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/suv/2021 Toyota RAV4 GXL Auto eFour/su2.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/suv/2021 Toyota RAV4 GXL Auto eFour/su3.webp"
+                    data-fancybox="gallery9">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/suv/2021 Toyota RAV4 GXL Auto eFour/su3.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/suv/2021 Toyota RAV4 GXL Auto eFour/su4.webp"
+                    data-fancybox="gallery9">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/suv/2021 Toyota RAV4 GXL Auto eFour/su4.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/suv/2021 Toyota RAV4 GXL Auto eFour/su5.webp"
+                    data-fancybox="gallery9">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/suv/2021 Toyota RAV4 GXL Auto eFour/su5.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/suv/2021 Toyota RAV4 GXL Auto eFour/su6.webp"
+                    data-fancybox="gallery9">
+                    <img class="foto__producto"
+                      src="assets/imagenes/vehiculos/suv/2021 Toyota RAV4 GXL Auto eFour/su6.webp" />
+                  </a>
+                </div>
+
+
+
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+            <div thumbsSlider="" class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/suv/2021 Toyota RAV4 GXL Auto eFour/su1.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/suv/2021 Toyota RAV4 GXL Auto eFour/su2.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/suv/2021 Toyota RAV4 GXL Auto eFour/su3.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/suv/2021 Toyota RAV4 GXL Auto eFour/su4.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/suv/2021 Toyota RAV4 GXL Auto eFour/su5.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/suv/2021 Toyota RAV4 GXL Auto eFour/su6.webp" />
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="texto">
+
+            <h2 class="texto__title">Toyota Camry SL</h2>
+
+            <div class="caracteristicas">
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/modelo.svg" alt="">
+                <h5 class="carac__text">Modelo: 2015</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/motor.svg" alt="">
+                <h5 class="carac__text">Motor: 1.5</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/color.svg" alt="">
+                <h5 class="carac__text">Color: gris</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/gasolina.svg" alt="">
+                <h5 class="carac__text">Combustible: Nafta</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/transmision.svg" alt="">
+                <h5 class="carac__text">Transmisión: Manual</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/aireacondicionado.svg" alt="">
+                <h5 class="carac__text">Aire Acondicionado: Si</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/calefaccion.svg" alt="">
+                <h5 class="carac__text">Calefacción: Si</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/kilometros.svg" alt="">
+                <h5 class="carac__text">Km: 178.000</h5>
+              </div>
+
+            </div>
+
+            </p>
+            <a class="texto__boton" href="https://wa.link/hgyiwa">
+              <img class="boton__img" src="assets/vectores/whatsapp_redondo.svg" alt="">
+              Consultar
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="product suv">
+        <div class="producto" id="producto10">
+
+          <div class="fotos">
+            <h2 class="fotos__title">Volvo XC90 T6 R</h2>
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/suv/volvo/su1.webp" data-fancybox="gallery10">
+                    <img class="foto__producto" src="assets/imagenes/vehiculos/suv/volvo/su1.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/suv/volvo/su2.webp" data-fancybox="gallery10">
+                    <img class="foto__producto" src="assets/imagenes/vehiculos/suv/volvo/su2.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/suv/volvo/su3.webp" data-fancybox="gallery10">
+                    <img class="foto__producto" src="assets/imagenes/vehiculos/suv/volvo/su3.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/suv/volvo/su4.webp" data-fancybox="gallery10">
+                    <img class="foto__producto" src="assets/imagenes/vehiculos/suv/volvo/su4.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/suv/volvo/su5.webp" data-fancybox="gallery10">
+                    <img class="foto__producto" src="assets/imagenes/vehiculos/suv/volvo/su5.webp" />
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="assets/imagenes/vehiculos/suv/volvo/su6.webp" data-fancybox="gallery10">
+                    <img class="foto__producto" src="assets/imagenes/vehiculos/suv/volvo/su6.webp" />
+                  </a>
+                </div>
+
+
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+            <div thumbsSlider="" class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/suv/volvo/su1.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/suv/volvo/su2.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/suv/volvo/su3.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/suv/volvo/su4.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/suv/volvo/su5.webp" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/imagenes/vehiculos/suv/volvo/su6.webp" />
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="texto">
+
+            <h2 class="texto__title">Toyota Camry SL</h2>
+
+            <div class="caracteristicas">
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/modelo.svg" alt="">
+                <h5 class="carac__text">Modelo: 2015</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/motor.svg" alt="">
+                <h5 class="carac__text">Motor: 1.5</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/color.svg" alt="">
+                <h5 class="carac__text">Color: gris</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/gasolina.svg" alt="">
+                <h5 class="carac__text">Combustible: Nafta</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/transmision.svg" alt="">
+                <h5 class="carac__text">Transmisión: Manual</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/aireacondicionado.svg" alt="">
+                <h5 class="carac__text">Aire Acondicionado: Si</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/calefaccion.svg" alt="">
+                <h5 class="carac__text">Calefacción: Si</h5>
+              </div>
+
+              <div class="modelo">
+                <img class="carac__icon" src="assets/vectores/icons/kilometros.svg" alt="">
+                <h5 class="carac__text">Km: 178.000</h5>
+              </div>
+
+            </div>
+
+            </p>
+            <a class="texto__boton" href="https://wa.link/hgyiwa">
+              <img class="boton__img" src="assets/vectores/whatsapp_redondo.svg" alt="">
+              Consultar
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+    <section class="testimony__container" id="testimonios">
+      <h4 class="testimomy__title">Testimonios</h4>
+      <section class="testimony">
+
+        <div class="testimony__item">
+          <h4 class="testimony__name">María Johnson</h4>
+          <p class="testimony__review">Excelente atención y variedad de autos. ¡Compré el mío aquí y estoy encantada con
+            la calidad y el servicio!"</p>
+          <div class="testimony__rate">
+            <h6 class="rate__text">Calificacion</h6>
+            <img class="rate__img" src="assets/vectores/stars.svg" alt="">
+          </div>
+        </div>
+
+        <div class="testimony__item">
+          <h4 class="testimony__name">Diego Smith</h4>
+          <p class="testimony__review"> "Gran experiencia de compra. ¡Recomiendo esta tienda a todos los que buscan
+            calidad y buen precio!"</p>
+          <div class="testimony__rate">
+            <h6 class="rate__text">Calificacion</h6>
+            <img class="rate__img" src="assets/vectores/stars.svg" alt="">
+          </div>
+        </div>
+
+        <div class="testimony__item">
+          <h4 class="testimony__name">Ana García</h4>
+          <p class="testimony__review">"Me ayudaron a encontrar el auto perfecto. ¡Servicio de calidad y asesoramiento
+            profesional!"</p>
+          <div class="testimony__rate">
+            <h6 class="rate__text">Calificacion</h6>
+            <img class="rate__img" src="assets/vectores/stars.svg" alt="">
+          </div>
+        </div>
+
+        <div class="testimony__item">
+          <h4 class="testimony__name">Michael Rodríguez</h4>
+          <p class="testimony__review">"Increíble selección de vehículos y precios competitivos. ¡Totalmente satisfecho
+            con mi compra aquí!"</p>
+          <div class="testimony__rate">
+            <h6 class="rate__text">Calificacion</h6>
+            <img class="rate__img" src="assets/vectores/stars.svg" alt="">
+          </div>
+        </div>
+
+        <div class="testimony__item">
+          <h4 class="testimony__name">Sofia Thompson</h4>
+          <p class="testimony__review">"Equipo profesional y amable. ¡Mi compra fue fácil y sin complicaciones, gracias
+            a su ayuda!"</p>
+          <div class="testimony__rate">
+            <h6 class="rate__text">Calificacion</h6>
+            <img class="rate__img" src="assets/vectores/stars.svg" alt="">
+          </div>
+        </div>
+
+        <div class="testimony__item">
+          <h4 class="testimony__name">Juan Miller</h4>
+          <p class="testimony__review">"Una tienda confiable y honesta. ¡Mi auto superó mis expectativas, gracias a su
+            recomendación!"</p>
+          <div class="testimony__rate">
+            <h6 class="rate__text">Calificacion</h6>
+            <img class="rate__img" src="assets/vectores/stars.svg" alt="">
+          </div>
+        </div>
+
+        <div class="testimony__item">
+          <h4 class="testimony__name">Emily López</h4>
+          <p class="testimony__review"> "Proceso de compra rápido y eficiente. ¡Gracias por hacerlo tan fácil y sin
+            complicaciones!"</p>
+          <div class="testimony__rate">
+            <h6 class="rate__text">Calificacion</h6>
+            <img class="rate__img" src="assets/vectores/stars.svg" alt="">
+          </div>
+        </div>
+
+        <div class="testimony__item">
+          <h4 class="testimony__name">Carlos Williams</h4>
+          <p class="testimony__review"> "Recomiendo esta tienda a todos. ¡Me encantó mi experiencia de compra, los
+            recomiendo siempre!"</p>
+          <div class="testimony__rate">
+            <h6 class="rate__text">Calificacion</h6>
+            <img class="rate__img" src="assets/vectores/stars.svg" alt="">
+          </div>
+        </div>
+
+        <div class="testimony__item">
+          <h4 class="testimony__name">Jessica Martínez</h4>
+          <p class="testimony__review"> "Atención personalizada y transparente. ¡Definitivamente volveré por mi próximo
+            auto, gracias por todo!"</p>
+          <div class="testimony__rate">
+            <h6 class="rate__text">Calificacion</h6>
+            <img class="rate__img" src="assets/vectores/stars.svg" alt="">
+          </div>
+        </div>
+
+        <div class="testimony__item">
+          <h4 class="testimony__name">Lucas Rivera</h4>
+          <p class="testimony__review">"¡Increíble servicio al cliente y autos de calidad! Mi mejor compra hasta ahora,
+            gracias por todo su apoyo!"</p>
+          <div class="testimony__rate">
+            <h6 class="rate__text">Calificacion</h6>
+            <img class="rate__img" src="assets/vectores/stars.svg" alt="">
+          </div>
+        </div>
+
+
+
+      </section>
+    </section>
+
+    <section class="mapa" id="ubicacion">
+
+      <h5 class="mapa__title">¿Dónde estamos?</h5>
+
+      <iframe class="mapa__maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14239.137769949815!2d-65.23973906031354!3d-26.846807562837387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c7142b55a7f%3A0x4f014d1fc50a42ef!2sAutomotores%20Rodr%C3%ADguez%20Hnos.!5e0!3m2!1ses-419!2sar!4v1728342116229!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      <a class="texto__boton texto__botonMAPS" href="#">Ver ubicación</a>
+
+    </section>
+
+
+
+
+
+
+    <div id="lightboxContainer" class="lightbox-container">
+      <span class="close-btn" onclick="closeLightbox()">cerrar</span>
+      <img id="lightboxImage" class="lightbox-image" src="" alt="Lightbox Image">
+    </div>
+
+  </main>
+
+
+  <footer class="footer">
+
+    <p class="footer__copy">
+      © [2024] "Carvolution" Todos los derechos reservados.El contenido de este sitio web está protegido por las leyes
+      de derechos de autor y propiedad intelectual.
+    </p>
+
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Incluir Fancybox JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+  <!-- Incluir Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>
